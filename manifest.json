@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Big Video",
+  "description": "This extension grows your video to the size of the browser",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["./background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "grow yo video"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

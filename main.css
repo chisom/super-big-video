@@ -1,0 +1,10 @@
+.modal {
+	z-index: 999999999999999999; 
+	position: absolute;
+	background: white;
+	top: 0;
+	display: block;
+}
+.modal video {
+	z-index: 999999999999999999; 
+}
