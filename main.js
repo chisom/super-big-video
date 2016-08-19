@@ -32,6 +32,7 @@
 	video2.setAttribute("autoplay",'');
 	// console.log(newVideo)
 	modal.appendChild(video2);
+	video2.play();
 	// console.log(video5);
 	// chrome.tabs.executeScript({
 	// 	code:'document.body.style.backgroundColor="blue" '
